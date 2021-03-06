@@ -26,4 +26,4 @@ try:
 except KeyboardInterrupt:
     amqpez.stop()
 ```
-The consumer is quite similar to a very standard pika async consumer. It will include ISID tracking to tackle publish network timeouts in a future update. This also works seemlessly with protobuf, since you essentially plug all serialization.
+The consumer is quite similar to a very standard pika async consumer. It will include ISID tracking to tackle publish network timeouts in a future update. This also works seamlessly with protobuf, since you essentially plug all serialization.
